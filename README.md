@@ -2,6 +2,8 @@
 
 Projeto editorial separado da ferramenta [Gestoria](https://github.com/inematds/gestoria).
 
+**Página pública: [Gestão de IA — plano do curso](https://inematds.github.io/curso-gestao-ia/).**
+
 **Objetivo:** formar gestores capazes de transformar um processo empresarial em uma operação híbrida com humanos e agentes, resultado mensurável, autonomia delimitada, supervisão, avaliações e melhoria contínua.
 
 ## Base disponível
@@ -15,7 +17,7 @@ Os três documentos-base foram copiados da primeira versão da ferramenta, commi
 
 ## Estado
 
-Planejamento preparado. As aulas completas, páginas HTML, vídeos e conjunto revisado de avaliação ainda serão produzidos. Este projeto está versionado localmente e ainda não foi publicado como site nem enviado a um repositório remoto.
+Plano pedagógico publicado em uma página HTML com ementa, laboratórios, entregas e downloads. As aulas completas, vídeos e conjunto revisado de avaliação ainda serão produzidos. A página identifica esse estado explicitamente e não apresenta o plano como uma formação concluída. Repositório: [inematds/curso-gestao-ia](https://github.com/inematds/curso-gestao-ia). O workflow de Pages publica somente a página, os materiais de planejamento e a capa.
 
 ## Sequência de produção
 
