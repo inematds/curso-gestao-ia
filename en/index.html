@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>AI Management — Course Plan | INEMA</title>
+<meta content="AI Management training plan: 10 modules, 60 proposed hours, and a business process as the final project. See the syllabus, labs, and templates. Lessons in development." name="description"/>
+<meta content="https://inematds.github.io/curso-gestao-ia/capa/capa.png" property="og:image"/>
+<link href="https://inematds.github.io/curso-gestao-ia/" rel="canonical"/>
+<script>try{if(localStorage.getItem('gestao-ia-plan-theme')==='light')document.documentElement.classList.remove('dark')}catch{}</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+    .topic-explanation { display: none; }
+    .topic-explanation.active { display: block; }
+
+    /* Light mode overrides - OBRIGATORIO */
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+
+    /* Light mode - cores de acento (SUBSTITUIR pela cor da trilha - ver Sec. 1.5) */
+    html:not(.dark) .text-emerald-400 { color: #047857; }
+    html:not(.dark) .bg-emerald-500\/20 { background-color: rgba(16, 185, 129, 0.12); }
+    html:not(.dark) .bg-emerald-500\/10 { background-color: rgba(16, 185, 129, 0.08); }
+    html:not(.dark) .border-emerald-500\/30 { border-color: rgba(16, 185, 129, 0.25); }
+    html:not(.dark) .hover\:bg-emerald-500\/30:hover { background-color: rgba(16, 185, 129, 0.18); }
+
+    /* Light mode - remove gradientes (fundo uniforme) */
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+
+    /* Light mode - cores especiais */
+    html:not(.dark) .text-primary { color: #a16207; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(161, 98, 7, 0.08); }
+    html:not(.dark) .border-primary\/40 { border-color: rgba(161, 98, 7, 0.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .hover\:text-yellow-300:hover { color: #854d0e; }
+
+    /* Light mode - nav */
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255, 255, 255, 0.95); }
+  </style>
+<style>
+:root{--bg:#111827;--panel:#1f2937;--line:#4b5563;--text:#f3f4f6;--muted:#cbd5e1;--green:#6ee7b7;--gold:#facc15;--sky:#38bdf8;--pro:#cbd5e1;color-scheme:dark}
+html:not(.dark){--bg:#f8fafc;--panel:#fff;--line:#d1d5db;--text:#111827;--muted:#475569;--green:#047857;--gold:#a16207;--sky:#0369a1;--pro:#b45309;color-scheme:light}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);background:var(--bg);line-height:1.75}a{color:var(--green);text-decoration:none}a:hover{text-decoration:underline}button{font:inherit;color:inherit;cursor:pointer}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--sky);outline-offset:4px}h1,h2,h3{line-height:1.25;text-wrap:balance}h1{font-size:clamp(34px,5vw,62px);letter-spacing:-.035em;margin:15px 0}h2{font-size:26px}h3{font-size:18px}.wrap{max-width:1120px;margin:auto;padding:0 24px}.nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:10}.nav .wrap{display:flex;align-items:center;gap:18px;min-height:65px;flex-wrap:wrap}.brand{color:var(--gold);font-weight:700}.text-sky-400{color:var(--sky)}.pro{color:var(--pro)}.nav .sections{margin-left:auto;display:flex;gap:20px;align-items:center;font-size:14px}.theme{height:40px;padding:0 12px;background:var(--panel);border:1px solid var(--line);border-radius:8px}.hero{padding:65px 0;border-bottom:1px solid var(--line)}.hero-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:35px;align-items:center}.hero img{width:100%;height:auto;border-radius:12px}.lead{font-size:19px;color:var(--muted);max-width:65ch}.status{font-size:12px;color:var(--green);white-space:nowrap}.availability{padding:20px 24px;background:var(--panel);border:1px solid var(--line);border-radius:12px;margin-top:28px}.availability p{margin:5px 0;color:var(--muted)}.buttons{display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-start;margin-top:24px}.button{display:inline-flex;align-items:center;justify-content:flex-start;min-height:44px;padding:10px 16px;border-radius:8px;background:var(--green);color:var(--bg);font-weight:600}.button.secondary{background:var(--panel);color:var(--text);border:1px solid var(--line)}.facts{display:flex;gap:28px;margin:25px 0 0;color:var(--muted);font-size:14px}.facts strong{color:var(--green)}.curriculum{padding:55px 0}.module-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:25px 0 40px}.module-link{padding:16px;display:flex;align-items:center;gap:14px;border:1px solid var(--line);border-radius:10px;color:var(--text);background:var(--panel)}.number{display:inline-flex;width:30px;height:30px;border-radius:50%;background:var(--green);color:var(--bg);align-items:center;justify-content:center;flex-shrink:0;font-size:13px;font-weight:700}.module{border:1px solid var(--line);border-radius:12px;background:var(--panel);margin:18px 0;scroll-margin-top:90px}.module summary{cursor:pointer;display:flex;align-items:center;gap:15px;padding:24px;list-style:none}.module summary::-webkit-details-marker{display:none}.module summary:after{content:'+';margin-left:auto;color:var(--green);font-size:25px}.module[open] summary:after{content:'−'}.text-2xl{font-size:24px}.font-bold{font-weight:700}.module summary .status{margin-left:auto}.module-body{border-top:1px solid var(--line);padding:12px 24px 24px}.module-body p{max-width:80ch;color:var(--muted)}.module-body strong{color:var(--text)}.reading{padding:30px 0;border-top:1px solid var(--line)}.reading p,.reading li{max-width:80ch;color:var(--muted)}.reading h2{color:var(--text)}.reading strong{color:var(--text)}table{border-collapse:collapse;width:100%;font-size:14px}th,td{padding:13px;text-align:left;border:1px solid var(--line);overflow-wrap:anywhere}.table-wrap{overflow:auto}footer{border-top:1px solid var(--line);padding:30px 0;margin-top:40px;font-size:14px;color:var(--muted)}.downloads{padding-bottom:45px}.downloads p{color:var(--muted)}
+@media(max-width:760px){.hero-grid{grid-template-columns:1fr}.hero{padding:35px 0}.hero img{max-width:520px}.nav .wrap{gap:12px;padding-block:10px}.nav .sections{margin-left:0;width:100%;gap:16px}.module-grid{grid-template-columns:1fr}.module summary{padding:18px;gap:12px;flex-wrap:wrap}.module summary .status{margin-left:42px;white-space:normal}.text-2xl{font-size:21px}.module summary>.text-2xl{flex:1}.module-body{padding:8px 18px 18px}.facts{gap:15px;flex-wrap:wrap}.wrap{padding-inline:20px}.lead{font-size:17px}.button{font-size:14px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style><link href="https://inematds.github.io/curso-gestao-ia/" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/curso-gestao-ia/en/" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/curso-gestao-ia/es/" hreflang="es" rel="alternate"/></head><body><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="./" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">EN</a><a href="../es/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<nav aria-label="Main navigation" class="nav"><div class="wrap"><a class="brand" href="#inicio">🧭 AI Management</a><span>|</span><a class="text-sky-400" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a><a class="pro" href="https://inema.pro" rel="noopener" target="_blank">PRO</a><div class="sections"><a href="#ementa">Outline</a><a href="#materiais">Materials</a><button aria-label="Toggle theme" class="theme" id="theme-toggle">Light theme</button></div></div></nav>
+<main id="inicio"><header class="hero"><div class="wrap"><div class="hero-grid"><div><h1>AI Management</h1><p class="lead">A company process as a unit of work. People and agents with responsibilities, autonomy, and measurable outcomes.</p><p><strong>INEMA course plan</strong></p><div class="buttons"><a class="button" href="#ementa">Explore the plan</a><a class="button secondary" href="https://inematds.github.io/gestoria/">Try Gestoria</a></div><div class="facts"><span><strong>10</strong> planned modules</span><span><strong>60h</strong> proposals</span><span><strong>1</strong> applied project</span></div></div><img alt="Gestão de IA cover — Course plan, with an AI-generated conceptual illustration." height="720" src="../capa/capa.png" width="1280"/></div><div class="availability"><strong>Plan available · lessons in development</strong><p>This page publishes the instructional proposal: outline, labs, deliverables, and final project criteria. The complete lessons, videos, and reviewed assessment set have yet to be produced. The associated tool is a lab with simulations.</p></div></div></header>
+<section class="curriculum wrap" id="ementa"><h2>The journey starts with the work.</h2><p>Open each module to see what will be developed, the proposed practice, and the acceptance criteria. The items below are outlines, not completed lessons.</p><div class="module-grid"><a class="module-link" href="#modulo-1"><span class="number">1</span><span>Map the work</span></a><a class="module-link" href="#modulo-2"><span class="number">2</span><span>Create digital roles</span></a><a class="module-link" href="#modulo-3"><span class="number">3</span><span>Hire models and agents</span></a><a class="module-link" href="#modulo-4"><span class="number">4</span><span>Train with context and Skills</span></a><a class="module-link" href="#modulo-5"><span class="number">5</span><span>Provide tools and integrations</span></a><a class="module-link" href="#modulo-6"><span class="number">6</span><span>Define autonomy and permissions</span></a><a class="module-link" href="#modulo-7"><span class="number">7</span><span>Create multi-agent teams</span></a><a class="module-link" href="#modulo-8"><span class="number">8</span><span>Supervise and handle exceptions</span></a><a class="module-link" href="#modulo-9"><span class="number">9</span><span>Evaluations, KPIs, costs, and ROI</span></a><a class="module-link" href="#modulo-10"><span class="number">10</span><span>LOOP-R and continuous improvement</span></a></div><details class="module" id="modulo-1"><summary><span class="number">1</span><span class="text-2xl font-bold">Map the work</span><span class="status">Planned outline</span></summary><div class="module-body"><p><strong>Question:</strong> which process should come first?</p>
+<p><strong>Lessons:</strong> 1.1 Process, task, agent, and outcome; 1.2 Observing how a good employee works; 1.3 Current workflow, inputs, decisions, and exceptions; 1.4 Baseline, target, and prioritization by value, feasibility, and risk.</p>
+<p><strong>Lab:</strong> interview the process owner, observe five cases, and map the normal path and two exceptions. Measure volume, minutes per case, rework, and wait time. Five cases are for initial exploration, not a final evaluation sample.</p>
+<p><strong>Deliverable:</strong> current- and future-state process canvas, scoped to the pilot.</p>
+<p><strong>Acceptance criterion:</strong> named owner; unambiguous input and completion criteria; metric with denominator; baseline observed or marked as a hypothesis; explicit exclusions.</p>
+<p><strong>In the tool:</strong> register a process and its goal.</p></div></details><details class="module" id="modulo-2"><summary><span class="number">2</span><span class="text-2xl font-bold">Create digital roles</span><span class="status">Planned outline</span></summary><div class="module-body"><p><strong>Question:</strong> what work is each agent responsible for?</p>
+<p><strong>Lessons:</strong> 2.1 Mission and delivery agreement; 2.2 Inputs, outputs, and quality criteria; 2.3 What it can and can’t do, and when to ask for help; 2.4 Human responsibility and division of work.</p>
+<p><strong>Lab:</strong> write the qualifier's profile and break down three cases into human and digital activities.</p>
+<p><strong>Deliverable:</strong> role profile, owner, and responsibility matrix.</p>
+<p><strong>Acceptance criterion:</strong> specific mission; verifiable output; concrete prohibited actions; owner for quality and exceptions.</p>
+<p><strong>In the tool:</strong> create an agent linked to the process.</p></div></details><details class="module" id="modulo-3"><summary><span class="number">3</span><span class="text-2xl font-bold">Hire models and agents</span><span class="status">Planned outline</span></summary><div class="module-body"><p><strong>Question:</strong> which configuration delivers the required work?</p>
+<p><strong>Lessons:</strong> 3.1 Model, agent, workflow, and runtime; 3.2 Selection criteria: quality, latency, cost, and data requirements; 3.3 Comparison using the same set of cases; 3.4 Fallback strategies and vendor dependency.</p>
+<p><strong>Lab:</strong> compare two configurations on the same 20 exploratory cases; record outputs, errors, cost, and time. These cases do not replace the final validation set.</p>
+<p><strong>Deliverable:</strong> selection assessment with version, limitations, and alternative.</p>
+<p><strong>Acceptance criterion:</strong> A decision supported by cases and process constraints, without a generic model ranking. Check prices and terms in the provider's sources at the time of the lab.</p>
+<p><strong>In the tool:</strong> record the model and agent version; actual costs will be added in the future runtime. In the MVP, execution values are simulated.</p></div></details><details class="module" id="modulo-4"><summary><span class="number">4</span><span class="text-2xl font-bold">Train with context and Skills</span><span class="status">Planned outline</span></summary><div class="module-body"><p><strong>Question:</strong> how can you turn operational experience into reusable instructions?</p>
+<p><strong>Lessons:</strong> 4.1 Procedures, examples, and rubrics; 4.2 Retrievable knowledge and sources; 4.3 Skills: trigger, inputs, steps, and output; 4.4 Case memory, operational memory, and retention; 4.5 Source quality and conflicts.</p>
+<p><strong>Lab:</strong> separate ICP, catalog, commercial rules, and examples into instructions, a knowledge base, and two Skills. Create a memory policy specifying what to store, for how long, and who can correct it.</p>
+<p><strong>Deliverable:</strong> versioned context package, two Skills, and memory policy.</p>
+<p><strong>Acceptance criterion:</strong> each document has an owner and version; the Skill has entry and exit criteria; unnecessary data is excluded; test data is not used as a training example.</p>
+<p><strong>In the tool:</strong> record context references and Skills in the form. Files and knowledge retrieval are deferred to the integrated phase.</p></div></details><details class="module" id="modulo-5"><summary><span class="number">5</span><span class="text-2xl font-bold">Provide tools and integrations</span><span class="status">Planned outline</span></summary><div class="module-body"><p><strong>Question:</strong> how does the agent act in the company's systems?</p>
+<p><strong>Lessons:</strong> 5.1 APIs, connectors, and MCP as means of access; 5.2 Reading versus writing and minimum scope; 5.3 Contracts, validation, idempotency, and retries; 5.4 Server-side credentials, test environment, and evidence of the action.</p>
+<p><strong>Lab:</strong> design a CRM query and an approved update, including permitted fields, timeout, error handling, and a key to prevent duplication. Run it in a test environment only when integration is available.</p>
+<p><strong>Deliverable:</strong> contract for two tools and an integration plan.</p>
+<p><strong>Acceptance criterion:</strong> no secrets in prompts or browser; bounded writing; retries do not duplicate actions; failures are routed with context.</p>
+<p><strong>In the tool:</strong> describe authorized tools. The MVP does not connect to CRM, email, ERP, APIs, or MCPs.</p></div></details><details class="module" id="modulo-6"><summary><span class="number">6</span><span class="text-2xl font-bold">Define autonomy and permissions</span><span class="status">Planned outline</span></summary><div class="module-body"><p><strong>Question:</strong> what can happen without approval?</p>
+<p><strong>Lessons:</strong> 6.1 Levels 0 to 4; 6.2 Autonomy by action; 6.3 Promotion and demotion criteria; 6.4 Approval tied to the proposal and deadline; 6.5 Pause and rollback.</p>
+<p><strong>Lab:</strong> apply levels to five actions; build an action × risk × approval × owner matrix. Simulate a prohibited attempt and a change after approval.</p>
+<p><strong>Deliverable:</strong> autonomy policy and promotion checklist.</p>
+<p><strong>Acceptance criterion:</strong> critical actions preserve human decision-making; policy does not rely on the prompt alone; promotion requires evidence and an owner.</p>
+<p><strong>In the tool:</strong> start at a low level, evaluate, and record promotion one level at a time. The local guardrails are instructional.</p></div></details><details class="module" id="modulo-7"><summary><span class="number">7</span><span class="text-2xl font-bold">Create multi-agent teams</span><span class="status">Planned outline</span></summary><div class="module-body"><p><strong>Question:</strong> when does separating responsibilities improve the process?</p>
+<p><strong>Lessons:</strong> 7.1 When a workflow or a single agent is enough; 7.2 Specialization and handoff contracts; 7.3 Supervisor, dependencies, and budget; 7.4 Stop conditions and loop prevention.</p>
+<p><strong>Lab:</strong> represent researcher → qualifier → CRM; define each stage's output, shared evidence, attempt limit, and final owner.</p>
+<p><strong>Deliverable:</strong> team structure and contracts between roles.</p>
+<p><strong>Acceptance criterion:</strong> each agent has a reason to exist; the supervisor does not expand permissions; the task has cost, attempt, and deadline limits.</p>
+<p><strong>In the tool:</strong> organize roles by process. Real multi-agent orchestration is part of the roadmap, not the simulator.</p></div></details><details class="module" id="modulo-8"><summary><span class="number">8</span><span class="text-2xl font-bold">Supervise and handle exceptions</span><span class="status">Planned outline</span></summary><div class="module-body"><p><strong>Question:</strong> how does the manager act when the normal flow is not enough?</p>
+<p><strong>Lessons:</strong> 8.1 Normal, uncertain, and critical cases; 8.2 Queue, priority, owner, and deadline; 8.3 Evidence package and decision; 8.4 Incidents and interruption; 8.5 Daily supervision routine.</p>
+<p><strong>Lab:</strong> resolve cases involving incomplete data, requests outside policy, and critical risk; justify approval or return. Measure wait time and review workload.</p>
+<p><strong>Deliverable:</strong> exception matrix and incident response playbook.</p>
+<p><strong>Acceptance criterion:</strong> no exception is left without an owner; approving, returning, and interrupting are distinct actions; decisions leave a rationale.</p>
+<p><strong>In the tool:</strong> simulate execution, review the pending item, and record the human decision.</p></div></details><details class="module" id="modulo-9"><summary><span class="number">9</span><span class="text-2xl font-bold">Evaluations, KPIs, costs, and ROI</span><span class="status">Planned outline</span></summary><div class="module-body"><p><strong>Question:</strong> does the operation deliver enough value to move forward?</p>
+<p><strong>Lessons:</strong> 9.1 Representative set, answer key, and rubric; 9.2 Correct, acceptable, incorrect, and critical; 9.3 Versions, regressions, and separation of training and testing; 9.4 Accuracy, autonomy, intervention, and time; 9.5 Total cost, capacity freed up, and estimated ROI.</p>
+<p><strong>Lab:</strong> prepare 100 reference cases with diverse and difficult cases; evaluate the candidate version; calculate cost per case and capacity freed up. Justify sample size and limitations according to the risk.</p>
+<p><strong>Deliverable:</strong> evaluation report and economic assessment, with a calculation spreadsheet.</p>
+<p><strong>Acceptance criterion:</strong> clear denominators; critical errors reported separately; human costs included; simulation is not presented as revenue or realized savings; the assessment records uncertainties.</p>
+<p><strong>In the tool:</strong> record expected/produced cases, human classification, and calculated metrics. The assessment is not generated by AI in the MVP.</p></div></details><details class="module" id="modulo-10"><summary><span class="number">10</span><span class="text-2xl font-bold">LOOP-R and continuous improvement</span><span class="status">Planned outline</span></summary><div class="module-body"><p><strong>Question:</strong> how can you improve without losing control of the operation?</p>
+<p><strong>Lessons:</strong> 10.1 Run, observe, and measure; 10.2 Cause, hypothesis, and change; 10.3 Comparative testing and validation; 10.4 Gradual rollout and rollback; 10.5 Process portfolio management.</p>
+<p><strong>Lab:</strong> use an exception to propose an improvement, record the candidate and evidence, compare it with the baseline, and deliberate. Design monitoring and rollback.</p>
+<p><strong>Deliverable:</strong> LOOP-R dossier and the operation's 30-day plan.</p>
+<p><strong>Acceptance criterion:</strong> changes are not applied based on isolated feedback; testing precedes validation; a human authorizes promotion; the previous version remains identified.</p>
+<p><strong>In the tool:</strong> record the problem, hypothesis, evidence, and experiment progress; update the agent separately and reevaluate the new version.</p></div></details></section><div class="wrap"><section class="reading"><h2>INEMA training proposal</h2><p>Train managers to transform <strong>a real process</strong> in a hybrid operation of humans and agents, with roles, context, tools, limits, supervision, evaluations, cost, and continuous improvement.</p>
+<p>Primary audience: department managers, owners of small and midsize businesses, operations leaders, and professionals who will implement AI in companies. The core learning path does not require programming; integration labs can be completed with a technical partner. The program does not promise regulated professional certification or guaranteed financial results.</p>
+<p><strong>Proposed format:</strong> 60 hours over 10 weeks, with 20 hours of guided lessons, 30 hours of lab work, and 10 hours of project work and review. Each module takes 6 hours: 2 for content, 3 for practice, and 1 for project consolidation. This workload is an editorial proposal and can be adjusted after the first cohort.</p>
+<p><strong>Prerequisites:</strong> authorized access to a process and its owner, basic knowledge of the operation, anonymized or synthetic data for the exercises, and availability to measure the current state. Using paid tools is not required for the management exercises; an integrated pilot will depend on the systems selected by the company.</p>
+<p><strong>Guiding case:</strong> qualifying 300 leads per week. Each student applies the same artifacts to their own process. All demo numbers in the tool are fictitious.</p></section><section class="reading"><h2>Learning outcomes</h2><p>By the end, participants should be able to:</p>
+<ol>
+<li>Choose and map a process with a baseline and measurable target.</li>
+<li>Write digital role descriptions and justify using one or more agents.</li>
+<li>Compare models in your own evaluation, including cost and constraints.</li>
+<li>Organize knowledge, Skills, memory, and tools with clear boundaries.</li>
+<li>Design progressive autonomy and human decisions for each action and risk level.</li>
+<li>Operate an exception queue and reconstruct a case's history.</li>
+<li>Measure quality, total cost, time, and autonomous work without confusing testing with production.</li>
+<li>Propose, assess, and implement improvements with a planned rollback.</li>
+</ol></section><section class="reading"><h2>Final project — a reviewable hybrid operation</h2><p>The student presents a real process, or an explicitly identified simulation when they do not have access to a company. The presentation includes:</p>
+<ul>
+<li>Diagnosis, baseline, and business objective.</li>
+<li>Current and future workflows, owner, and responsibilities.</li>
+<li>Role profiles, context, Skills, and memory policy.</li>
+<li>Tool contracts and autonomy matrix.</li>
+<li>Supervision, exceptions, budget, and interruption.</li>
+<li>Reference set, rubric, and report by version.</li>
+<li>Quality, time, total cost, and capacity freed up indicators.</li>
+<li>A documented LOOP-R cycle, promotion and rollback plan.</li>
+<li>Demonstration of one normal, one uncertain, and one critical case.</li>
+</ul>
+<p><strong>Rubric (100 points):</strong> process and outcome 15; roles and context 15; tools and permissions 15; supervision and exceptions 15; evaluations and metrics 20; LOOP-R and operations 15; clarity of evidence 5.</p>
+<p><strong>Proposed conclusion:</strong> at least 75 points and meeting all mandatory criteria: identified human owner, bounded critical actions, evaluation evidence, exception routing, identified demo data, and rollback plan. The certificate records completion of the training; pedagogical approval does not automatically authorize production use at the company.</p></section><section class="reading"><h2>Materials to produce</h2><table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Usage</th>
+<th>Status of this release</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pedagogical plan and method</td>
+<td>Guide authorship and the cohort</td>
+<td>Documented</td>
+</tr>
+<tr>
+<td>Process, role, Skill, evaluation, and LOOP-R templates</td>
+<td>Student deliverables</td>
+<td>Available in TEMPLATES.md</td>
+</tr>
+<tr>
+<td>Local tool</td>
+<td>Management lab</td>
+<td>Functional MVP with simulation</td>
+</tr>
+<tr>
+<td>Complete lessons and video scripts</td>
+<td>Teaching</td>
+<td>Next editorial step</td>
+</tr>
+<tr>
+<td>INEMA workbook and HTML pages</td>
+<td>Reading</td>
+<td>Next editorial step</td>
+</tr>
+<tr>
+<td>Baseline of 100 reviewed cases</td>
+<td>Final assessment</td>
+<td>To be produced and reviewed; don’t replace with repeated examples</td>
+</tr>
+<tr>
+<td>Connectors and runtime</td>
+<td>Real business pilot</td>
+<td>Technical roadmap</td>
+</tr>
+</tbody>
+</table></section><section class="reading"><h2>Course production plan</h2><ol>
+<li>Validate the scope with managers and select an authorized pilot process.</li>
+<li>Produce modules 1 and 2, templates, and five discovery cases.</li>
+<li>Pilot the local lab with a small cohort; observe questions and time per deliverable.</li>
+<li>Produce modules 3 through 8 based on observed challenges and the selected integration environment.</li>
+<li>Curate the 100 cases and review the rubric with someone who knows the process well.</li>
+<li>Produce modules 9 and 10 and conduct the project review panel.</li>
+<li>Adjust the workload, examples, and tool based on the cohort’s evidence.</li>
+</ol>
+<p>The curriculum uses tools as means. Model or provider updates should change examples and labs without altering the method's backbone.</p></section></div>
+<section class="downloads wrap" id="materiais"><h2>Materials available now</h2><p>Download the files to consult or adapt them to your company’s process.</p><div class="buttons"><a class="button" download="" href="../planejamento/PLANO-CURSO.md">Complete plan (.md)</a><a class="button secondary" download="" href="../planejamento/METODO.md">Method (.md)</a><a class="button secondary" download="" href="../planejamento/TEMPLATES.md">Templates (.md)</a><a class="button secondary" href="https://github.com/inematds/curso-gestao-ia">Course repository</a></div></section></main><footer><div class="wrap">AI Management · INEMA Training Plan · <a href="https://inema.club">INEMA.CLUB</a> · <a href="https://inematds.github.io/gestoria/guia/">Tool guide</a></div></footer>
+<script>
+const toggle=document.getElementById('theme-toggle');const root=document.documentElement;
+function label(){toggle.textContent=root.classList.contains('dark')?'Tema claro':'Tema escuro'}
+label();toggle.addEventListener('click',()=>{root.classList.toggle('dark');label();try{localStorage.setItem('gestao-ia-plan-theme',root.classList.contains('dark')?'dark':'light')}catch{}});
+function openAnchor(){const id=location.hash.slice(1);const item=document.getElementById(id);if(item&&item.tagName==='DETAILS')item.open=true}
+window.addEventListener('hashchange',openAnchor);openAnchor();
+document.querySelectorAll('table').forEach(table=>{const wrap=document.createElement('div');wrap.className='table-wrap';table.before(wrap);wrap.append(table)});
+</script></body></html>
